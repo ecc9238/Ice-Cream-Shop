@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
@@ -26,5 +27,21 @@
     <TextField fx:id="firstNameTextField" layoutX="76.0" layoutY="140.0" onAction="#handle" prefHeight="27.0" prefWidth="180.0" promptText="First Name" text="" />
     <TextField fx:id="lastNameTextField" layoutX="332.0" layoutY="140.0" onAction="#handle" prefHeight="27.0" prefWidth="180.0" promptText="Last name" text="" />
     <Button fx:id="continueBtn" layoutX="263.0" layoutY="258.0" mnemonicParsing="false" onAction="#handle" text="Continue" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="42.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="393.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Images/IceCream5.jpeg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Images/IceCream6.jpeg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="99.0" fitWidth="132.0" layoutX="468.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Images/IceCream7.jpeg" />
+      </image>
+    </ImageView>
   </children>
 </AnchorPane>
